@@ -1,0 +1,38 @@
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+.left-h{
+    flex: 0 0 50%;
+}
+.left-h>h1{
+    font-size: 2.2rem;
+}
+.left-h>h1>span{
+    color: rgb(255, 217, 0);
+}
+.left-h>p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.left-h>p{
+    font-size: 1.2rem;
+}
+.right-h{
+    flex: 0 0 1;
+}
+.right-h>img{
+    cursor: unset;
+}
+
+@media screen and (max-width:786px){
+    .right-h{
+        display: none;
+    }
+    .left-h{
+        flex: 0 0 100%;
+    }
+}

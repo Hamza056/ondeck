@@ -1,0 +1,11 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-f{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}

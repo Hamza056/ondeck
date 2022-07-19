@@ -1,0 +1,13 @@
+.App{
+  background-color: rgba(255, 192, 203, 0.315);
+  padding-inline: 5rem;
+ min-height: 100vh;
+}
+.btn-green{
+  background-color: #125024;
+  padding: 1rem 2rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
